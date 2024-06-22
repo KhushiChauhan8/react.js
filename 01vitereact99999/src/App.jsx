@@ -4,12 +4,13 @@ import Chai from "./chai"
 
 
 function App() {
-  
+  const username = "with me"
 
   return (
     <>
     <Chai/>
-    <h1>chai or react</h1>
+    {/* final outcome || Evaluation Expression */}
+    <h1>chai or react {username}</h1>   
     <p>test para</p>
     </>
   )
